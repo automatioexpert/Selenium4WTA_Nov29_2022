@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validate Title Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.026">
+  <properties />
+            <testcase name="validateTitle" time="0.026" classname="testngLearning.TestCase2">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+	expected [Gmail.com] but found [Google.com],
+	Button is not present did not expect to find [true] but found [false],
+	Condition not met hence failing the test"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [Gmail.com] but found [Google.com],
+	Button is not present did not expect to find [true] but found [false],
+	Condition not met hence failing the test
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+  testngLearning.TestCase2.validateTitle(TestCase2.java:26)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.util.ArrayList.forEach(ArrayList.java:1257)
+  org.testng.TestRunner.privateRun(TestRunner.java:770)
+  org.testng.TestRunner.run(TestRunner.java:591)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

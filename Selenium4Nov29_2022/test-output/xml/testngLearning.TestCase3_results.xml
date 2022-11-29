@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Basic Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.004">
+  <properties />
+  
+            <testcase name="isSkip" time="0.0" classname="testngLearning.TestCase3">
+          <skipped />
+    </testcase>
+  
+            <testcase name="doRegistration" time="0.002" classname="testngLearning.TestCase3" />
+                <testcase name="doLogin" time="0.001" classname="testngLearning.TestCase3" />
+      
+</testsuite>

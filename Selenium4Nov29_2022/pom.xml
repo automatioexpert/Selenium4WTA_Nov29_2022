@@ -35,11 +35,11 @@
 		</dependency>
 
 
-<dependency>
-    <groupId>com.sun.mail</groupId>
-    <artifactId>javax.mail</artifactId>
-    <version>1.6.2</version>
-</dependency>
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.6.2</version>
+		</dependency>
 
 
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -47,6 +47,18 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.4</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>5.1.0</version>
 		</dependency>
 
 

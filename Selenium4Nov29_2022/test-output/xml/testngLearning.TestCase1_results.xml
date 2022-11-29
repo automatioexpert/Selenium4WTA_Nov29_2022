@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dependency Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.005">
+  <properties />
+  
+  
+            <testcase name="doUserReg" time="0.003" classname="testngLearning.TestCase1" />
+                <testcase name="doLogin" time="0.002" classname="testngLearning.TestCase1" />
+      
+</testsuite>
