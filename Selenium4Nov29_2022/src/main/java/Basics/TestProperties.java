@@ -26,8 +26,42 @@ public class TestProperties {
 	
 	public static void click(String locator) {
 		
-	driver.findElement(By.xpath(OR.getProperty(locator))).click();
-	log.info("Clicking on WebElement: "+locator);
+	if(locator.endsWith("_xpath")) {
+		driver.findElement(By.xpath(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	else if(locator.endsWith("_css")) {
+		driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	
+	else if(locator.endsWith("_id")) {
+		driver.findElement(By.id(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	else if(locator.endsWith("_name")) {
+		driver.findElement(By.name(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	
+	else if(locator.endsWith("_linkText")) {
+		driver.findElement(By.linkText(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	
+	else if(locator.endsWith("_className")) {
+		driver.findElement(By.className(OR.getProperty(locator))).click();
+		log.info("Clicking on WebElement: "+locator);
+		
+	}
+	
+	
+
 		
 	}
 	
