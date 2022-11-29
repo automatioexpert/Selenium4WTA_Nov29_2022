@@ -17,6 +17,7 @@ public class TestRelativeLocators {
 	 * 
 	 * 
 	 */
+	
 	public static void main(String[] args) throws InterruptedException {
 
 		WebDriverManager.chromedriver().setup();
