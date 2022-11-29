@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngLearning.TestCase3">
+      <class name="testngLearning.TestExtentReport">
         <methods>
+          <include name="endReport"/>
           <include name="doRegistration"/>
-          <include name="doLogin"/>
-          <include name="isSkip"/>
+          <include name="setUpReport"/>
         </methods>
-      </class> <!-- testngLearning.TestCase3 -->
+      </class> <!-- testngLearning.TestExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
