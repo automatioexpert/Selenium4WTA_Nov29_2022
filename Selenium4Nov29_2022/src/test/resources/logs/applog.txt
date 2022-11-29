@@ -1,0 +1,45 @@
+INFO    2022-11-29 16:45:56,447 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 16:45:56,451 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 16:45:56,451 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 16:46:04,635 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 16:46:10,444 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 16:46:19,728 [main] Basics.TestProperties  - Gmail Login Test Passed
+INFO    2022-11-29 16:46:45,311 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 16:46:45,315 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 16:46:45,315 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 16:46:53,542 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 16:47:00,231 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 16:47:08,251 [main] Basics.TestProperties  - Gmail Login Test Passed
+INFO    2022-11-29 16:54:50,190 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 16:54:50,194 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 16:54:50,195 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 16:54:55,679 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 16:55:01,137 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 16:56:28,744 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 16:56:28,748 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 16:56:28,748 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 16:56:40,066 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 16:56:47,422 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 16:56:48,494 [main] Basics.TestProperties  - Entered text on WebElement: usernmaeTxtBox with value: sdjsd8594575794475
+INFO    2022-11-29 16:56:52,210 [main] Basics.TestProperties  - Clicking on WebElement: nextBtn
+INFO    2022-11-29 16:57:34,413 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 16:57:34,416 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 16:57:34,417 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 16:57:44,897 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 16:57:53,004 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 16:57:53,736 [main] Basics.TestProperties  - Entered text on WebElement: usernmaeTxtBox with value: trainer@way2automation.com
+INFO    2022-11-29 16:57:57,049 [main] Basics.TestProperties  - Clicking on WebElement: nextBtn
+INFO    2022-11-29 16:57:59,643 [main] Basics.TestProperties  - Entered text on WebElement: passwordTextBox with value: 3594575747597467467
+INFO    2022-11-29 16:57:59,763 [main] Basics.TestProperties  - Clicking on WebElement: nextBtn
+INFO    2022-11-29 16:58:00,473 [main] Basics.TestProperties  - Gmail Login Test Passed
+INFO    2022-11-29 17:00:18,516 [main] Basics.TestProperties  - Log started logging
+INFO    2022-11-29 17:00:18,534 [main] Basics.TestProperties  - Config file loaded
+INFO    2022-11-29 17:00:18,535 [main] Basics.TestProperties  - OR file loaded
+INFO    2022-11-29 17:00:35,835 [main] Basics.TestProperties  - Chrome browser is launched
+INFO    2022-11-29 17:00:41,852 [main] Basics.TestProperties  - URL is launched: https://www.gmail.com
+INFO    2022-11-29 17:00:42,766 [main] Basics.TestProperties  - Entered text on WebElement: usernmaeTxtBox with value: trainer@way2automation.com
+INFO    2022-11-29 17:00:45,852 [main] Basics.TestProperties  - Clicking on WebElement: nextBtn
+INFO    2022-11-29 17:00:48,341 [main] Basics.TestProperties  - Entered text on WebElement: passwordTextBox with value: 3594575747597467467
+INFO    2022-11-29 17:00:48,505 [main] Basics.TestProperties  - Clicking on WebElement: nextBtn
+INFO    2022-11-29 17:00:49,155 [main] Basics.TestProperties  - Gmail Login Test Passed
+INFO    2022-11-29 17:00:55,371 [main] Basics.TestProperties  - Closed all the browser instance
