@@ -6,6 +6,7 @@
       <class name="testngLearning.TestExtentReport">
         <methods>
           <include name="endReport"/>
+          <include name="updateResult"/>
           <include name="doRegistration"/>
           <include name="setUpReport"/>
         </methods>
